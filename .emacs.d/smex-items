@@ -1,0 +1,29 @@
+
+;; ----- smex-history -----
+(
+ yas-global-mode
+ eshell
+ company-mode
+ term
+ indent-region
+ compilation-mode
+ hs-minor-mode
+)
+
+;; ----- smex-data -----
+(
+ (yas-minor-mode . 4)
+ (eshell . 14)
+ (gdb . 2)
+ (company-mode . 33)
+ (hs-minor-mode . 2)
+ (hs-hide-block . 5)
+ (company-complete-common . 2)
+ (package-install . 3)
+ (list-packages . 1)
+ (hs-show-block . 2)
+ (term . 54)
+ (indent-region . 6)
+ (yas-global-mode . 7)
+ (compilation-mode . 6)
+)

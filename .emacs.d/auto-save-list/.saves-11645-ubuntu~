@@ -1,0 +1,10 @@
+/home/augustus/hypro/core/vmmcall_hypercall.c
+/home/augustus/hypro/core/#vmmcall_hypercall.c#
+/home/augustus/hypro/core/cpu_interpreter.c
+/home/augustus/hypro/core/#cpu_interpreter.c#
+/home/augustus/hypro/tools/hypercall/printlog.c
+/home/augustus/hypro/tools/hypercall/#printlog.c#
+/home/augustus/hypro/core/regs.h
+/home/augustus/hypro/core/#regs.h#
+/home/augustus/hypro/tools/hypercall/hypercall.c
+/home/augustus/hypro/tools/hypercall/#hypercall.c#

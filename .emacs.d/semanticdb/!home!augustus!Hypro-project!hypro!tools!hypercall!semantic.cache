@@ -1,0 +1,31 @@
+;; Object hypercall/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "hypercall/"
+  :tables (list 
+   (semanticdb-table "test.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("../common/call_vmm.h" include nil nil [1 32])
+            ("stdio.h" include (:system-flag t) nil [34 52])
+            ("vmmcall_test" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [79 84]))                  
+                :type "int")
+                nil [54 341])
+            ("test" function
+               (:typemodifiers ("static")
+                :type "void")
+                nil [343 398])
+            ("main" function (:type "int") nil [400 452]))          
+    :file "test.c"
+    :pointmax 453
+    :fsize 452
+    :lastmodtime '(22061 50230 129465 523000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!augustus!Hypro-project!hypro!tools!hypercall!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
