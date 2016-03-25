@@ -33,7 +33,7 @@
 
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized-master")
-(load-theme 'solarized t)
+(load-theme 'tango-dark t)
 
 
 (add-to-list 'load-path "~/.emacs.d/elpa/company-0.8.12/")
@@ -47,17 +47,12 @@
 (define-key global-map [(control f8)] 'cscope-pop-mark)
 (define-key global-map [(control f9)] 'cscope-prev-symbol)
 (define-key global-map [(control f10)] 'cscope-next-symbol)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(ecb-layout-window-sizes (quote (("left8" (ecb-directories-buffer-name 0.17326732673267325 . 0.28846153846153844) (ecb-sources-buffer-name 0.17326732673267325 . 0.23076923076923078) (ecb-methods-buffer-name 0.17326732673267325 . 0.28846153846153844) (ecb-history-buffer-name 0.17326732673267325 . 0.17307692307692307)))))
- '(inhibit-startup-screen t))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
 
+;;company mode
+(add-hook 'after-init-hook 'global-company-mode)
+(define-key global-map  [(M tab)] 'company-complete)
+(define-key global-map  [(M tab)] 'company-complete)
+
+;; Package: yasnippet
+(require 'yasnippet)
+(yas-global-mode 1)

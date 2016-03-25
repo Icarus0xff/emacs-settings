@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ load-theme
+ list-packages
  yas-global-mode
  eshell
  company-mode
  term
  indent-region
- compilation-mode
- hs-minor-mode
 )
 
 ;; ----- smex-data -----
@@ -20,10 +20,11 @@
  (hs-hide-block . 5)
  (company-complete-common . 2)
  (package-install . 3)
- (list-packages . 1)
+ (list-packages . 2)
  (hs-show-block . 2)
  (term . 54)
  (indent-region . 6)
  (yas-global-mode . 7)
  (compilation-mode . 6)
+ (load-theme . 7)
 )
